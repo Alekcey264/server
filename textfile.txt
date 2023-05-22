@@ -1,0 +1,5 @@
+dockerfile:
+FROM codercom/code-server:latest
+
+docker ps
+docker cp <идентификатор_контейнера>:/home/coder/.config/code-server/config.yaml C:\путь_к_целевой_папке\config.yaml
